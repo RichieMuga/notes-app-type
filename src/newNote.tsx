@@ -1,6 +1,6 @@
 const NewNote = () => {
   return (
-    <div>newNote</div>
+    <div>newNotes</div>
   )
 }
 
