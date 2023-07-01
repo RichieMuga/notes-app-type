@@ -1,7 +1,7 @@
 import { FormEvent, useRef } from "react";
 import { Button, Row, Col, Form, Stack } from "react-bootstrap";
 import { Link } from "react-router-dom";
-// import CreatableReactSelect from "react-select/creatable"
+import CreatableReactSelect from "react-select/creatable"
 
 const NoteForm = () => {
   const titleRef = useRef<HTMLInputElement>(null);
@@ -26,9 +26,9 @@ const NoteForm = () => {
           <Col>
             <Form.Group controlId="tags">
               <Form.Label>Tags</Form.Label>
-              {/* <CreatableReactSelect
+              <CreatableReactSelect
                 isMulti
-              /> */}
+              />
             </Form.Group>
           </Col>
         </Row>
